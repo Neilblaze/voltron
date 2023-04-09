@@ -1,0 +1,19 @@
+{
+  "name": "voltron",
+  "version": "1.0.0",
+  "description": "gRPC load-balancer",
+  "scripts": {
+    "dev": "tsx watch src/main.ts"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.13",
+    "@grpc/proto-loader": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "author": "Pratyay Banerjee",
+  "license": "MIT"
+}
